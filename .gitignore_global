@@ -1,0 +1,20 @@
+# Setup:
+# git config --global core.excludesfile ~/.gitignore_global
+
+# Editors:
+.idea
+.vscode
+
+# Byte-cache
+.pyc
+
+# Packages
+node_modules
+
+# Logs
+*.log
+npm-debug.log
+
+# Diff
+*~
+.DS_Store
