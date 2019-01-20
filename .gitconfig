@@ -1,0 +1,19 @@
+[user]
+	email = v.vanchuk@tut.by
+	name = Vasiliy Vanchuk (@vvscode)
+[core]
+	excludesfile = /Users/vvscode/.gitignore_global
+	editor = micro
+	ignorecase = false
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[diff]
+	algorithm = patience
+[push]
+	default = current
+[help]
+	autocorrect = 1
