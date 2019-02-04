@@ -19,3 +19,9 @@
 	autocorrect = 1
 [alias]
 	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+	cm = commit -m
+	cam = commit --amend  -m
+	s = status -s
+	la = !git config -l | grep alias | cut -c 7-
+	co = checkout
+	cob = checkout -b
